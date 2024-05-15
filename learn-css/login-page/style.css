@@ -1,0 +1,51 @@
+ * 
+ {
+    box-sizing: border-box;
+ }
+ 
+ body
+ {
+    background-color: antiquewhite;
+ }
+
+ .login-wrapper 
+ {
+    background-color: beige;
+    width: 450px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-left: 20px;
+ }
+
+ .login-wrapper h3
+ {
+    color: darkgreen;
+ }
+
+ .login-wrapper h2
+ {
+    color:midnightblue;
+ }
+
+ .login-wrapper input
+ {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+ }
+
+ .login-wrapper .input-wrapper
+ {
+    margin-top: 20px;
+ }
+ button 
+ {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #0ad15d;
+    color: white;
+    border: none;
+    font-weight: 700;
+
+ }
