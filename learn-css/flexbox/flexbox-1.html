@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 1</title>
+    <style>
+        .flexbox-container
+        {
+            background-color: #8d65d8;
+            padding: 20px;
+            display:flex ;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
+        .item
+        {
+            background-color: red;
+            padding: 20px;
+           /* margin: 10px; after using gap */
+            text-align: center;
+            color: aliceblue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox-container">
+        <diV class="item">
+            1
+        </diV>
+        <diV class="item">
+            2
+        </diV>
+        <diV class="item">
+            3
+        </diV>
+    </div>
+</body>
+</html>
