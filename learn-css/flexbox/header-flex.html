@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header With Flex</title>
+    <style>
+        header
+        {
+            background-color: bisque;
+            color: #e94e4e;
+            height: 70px;
+        }
+        a
+        {
+            color:black;
+            text-decoration: none;
+
+        }
+        .flexbox-container
+        {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+        header ul
+        {
+            display: flex;
+            list-style: none;
+            gap :10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flexbox-container">
+            <h3>Logo</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+</body>
+</html>
