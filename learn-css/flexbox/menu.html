@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Menu</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            height: 70px;
+            border-bottom: 1px solid #ddd;
+            padding: 0 10%;
+        }
+        .menu a{
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: .5s;
+            font: 1em sans-serif;
+            color: black;
+        }
+        .menu a:hover{
+            background-color: #5555;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+</body>
+</html>
